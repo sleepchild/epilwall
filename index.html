@@ -1,6 +1,35 @@
 <html>
-  <head></head>
+  <head>
+    <meta charset="utf-8"/>
+    <title>epilwall - moddable live wallpaper for android</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  </head>
   <body>
-    <h2>Epilwall</h2>
+    
+    <div id="cbg">
+      <canvas id="canvas"/>
+    </div>
+    
+    <div id="content">
+      <div id="header">
+        <div id="bars">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <div id="brand">epilwall</div>
+      </div>
+
+      <div class="container">
+        <p welcome> Welcome to the epilwall wiki.</p>
+
+        <p>Epilwall is a moddable live wallpaper for android.</p>
+        <p>It allows you to create your own animations. and edit existing ones to your liking.</p>
+      </div>
+    </div>
+    
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/cbg.js"></script>
   </body>
 </html>
