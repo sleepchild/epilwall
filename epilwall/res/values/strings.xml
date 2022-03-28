@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">epilwall</string>
+    <string name="wallpaper_service_description">live wallpaper for android.</string>
+</resources>
