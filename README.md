@@ -1,6 +1,6 @@
 # epilwall
 
-## THIS IS ~~NON~~ SEMI-FUNCTIONAL. I AM STILL WORKING ON THE CODE.
+## THIS IS A WORK IN PROGRESS. The code still needs work.
 
 Epilwall is a customisable live wallpaper for android. You can download or create your own animations/backgrounds.    
 And, You can modify them too!
