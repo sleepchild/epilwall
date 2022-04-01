@@ -7,4 +7,4 @@ And, You can modify them too!
 
 head over to [the wiki](https://sleepchild.github.io/epilwall/) for more information.
 
-#### license: gplv3
+#### license: [gplv3](https://www.gnu.org/licenses/gpl-3.0.txt)
