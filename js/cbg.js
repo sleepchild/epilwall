@@ -107,10 +107,10 @@
         if(lastspawn>spawnDiff){
             //
             var s = new Shape();
-            var v = randx(1,5);
-            if(v>2){
-               s = spawnCircle();
-            }
+            //var v = randx(1,5);
+            //if(v>2){
+               //s = spawnCircle();
+            //}
             //s.w = randx(10, 100);
            // s.h = randx(10, 100);
             s.x = randx(0, swidth-s.w);
@@ -190,13 +190,15 @@
         this.x = 0;
         this.y=sheight;
         
-        this.w = randx(1, 50);
-        this.h= randx(1,50);
+        this.w = randx(1, 30);
+        this.h= randx(1,30);
+        
+        this.vs=randx(3,6);
         
         this.color = randColor();// "rgb(200,100,22)";
         
         this.update = function(){
-            this.y-=10;
+            this.y-= this.vs;
            // this.y = 300;
             //this.h=randx(20, 100);
             if(this.y<-this.h){
